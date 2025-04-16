@@ -1,0 +1,13 @@
+server:
+  tomcat:
+    threads:
+      min-spare: 100
+      max: 5000
+
+spring:
+  application:
+    name: raffle-backend-api
+  data:
+    mongodb:
+      database: raffle-db
+      uri: mongodb+srv://danielarraiscarvalho:zNbs7cVvYz0caucZ@cluster0.z6np9.mongodb.net/
