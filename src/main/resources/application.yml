@@ -10,4 +10,4 @@ spring:
   data:
     mongodb:
       database: raffle-db
-      uri: mongodb+srv://danielarraiscarvalho:zNbs7cVvYz0caucZ@cluster0.z6np9.mongodb.net/
+      uri: mongodb://mongo:mongo@localhost:27017/
